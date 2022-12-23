@@ -9,7 +9,7 @@ const Design = () => {
         <Icons name="designMiddle" />
         <Icons name="designBottom" />
       </div>
-      <div className="min-w-[100px] min-h-[77px] border border-secondaryColor" />
+      <div className="min-w-[100px] min-h-[75px] border border-secondaryColor" />
     </div>
   );
 };
