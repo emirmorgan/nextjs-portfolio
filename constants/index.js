@@ -73,3 +73,18 @@ export const socials = [
   { icon: "linkedin", link: "https://linkedin.com/in/emirmorgan" },
   { icon: "twitter", link: "https://twitter.com/emirmrg" },
 ];
+
+export const mySkills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "Next.js",
+  "Redux & Context API",
+  "Tailwindcss",
+  "Bootstrap",
+  "Material UI",
+  "SASS",
+  "PHP",
+];
