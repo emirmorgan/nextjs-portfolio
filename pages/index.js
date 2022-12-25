@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 
 //Sections
 import Hero from "../sections/Hero";
+import Projects from "../sections/Projects";
 import Skills from "../sections/Skills";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <main className="flex flex-col w-full h-full max-w-[1280px] mx-auto overflow-hidden">
           <Hero />
           <Skills />
+          <Projects />
         </main>
         <Footer />
       </div>

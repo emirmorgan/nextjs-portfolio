@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: "Next.js Portfolio [This Website]",
-    source: "https://github.com/emirmorgan",
-    live: "https://github.com/emirmorgan",
-    tags: ["Next.js", "react-three-fiber", "Tailwindcss"],
+    source: "https://github.com/emirmorgan/nextjs-portfolio",
+    live: "https://emirmorgan.netlify.app",
+    tags: ["Next.js", "react-three-fiber", "Tailwindcss", "SASS"],
     imgSrc: "https://source.unsplash.com/random",
   },
   {
@@ -38,14 +38,14 @@ export const projects = [
   {
     title: "Next.js Metaverse Page",
     source: "https://github.com/emirmorgan/nextjs-metaverse-page",
-    live: "nextjs-metaverse.netlify.app",
+    live: "https://nextjs-metaverse.netlify.app",
     tags: ["Next.js", "Typescript", "Framer Motion", "Tailwindcss"],
     imgSrc: "https://source.unsplash.com/random",
   },
   {
     title: "React Spotify Clone",
     source: "https://github.com/emirmorgan/react-spotify-clone",
-    live: "imaginative-otter-9b6660.netlify.app",
+    live: "https://imaginative-otter-9b6660.netlify.app",
     tags: ["React.js", "Redux", "Tailwindcss", "React Router"],
     imgSrc: "https://source.unsplash.com/random",
   },

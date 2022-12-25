@@ -1,8 +1,5 @@
 import Styles from "../styles/styles.module.sass";
 
-//Assets
-import { Icons } from "../assets";
-
 //Constants
 import { mySkills } from "../constants";
 
@@ -11,7 +8,7 @@ import Sculpture from "../components/Sculpture";
 
 const Skills = () => {
   return (
-    <section id="skills" className="w-full mx-auto my-36">
+    <section id="skills" className="w-full mx-auto my-32 p-2">
       <div className="flex flex-col lg:flex-row justify-center items-center w-full px-10">
         <div className="flex-1">
           <div className="flex items-center text-[52px]">
