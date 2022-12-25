@@ -236,7 +236,7 @@ const ArrowDown = () => {
 const ProjectsDesign = () => {
   return (
     <svg
-      width="314"
+      width="100%"
       height="1"
       viewBox="0 0 314 1"
       fill="none"

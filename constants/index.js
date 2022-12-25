@@ -4,7 +4,7 @@ export const projects = [
     source: "https://github.com/emirmorgan/nextjs-portfolio",
     live: "https://emirmorgan.netlify.app",
     tags: ["Next.js", "react-three-fiber", "Tailwindcss", "SASS"],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/portfolio.jpg",
   },
   {
     title: "Next.js Twitter Clone",
@@ -18,7 +18,7 @@ export const projects = [
       "Tailwindcss",
       "Firebase(Firestore & Auth)",
     ],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/twitter.jpg",
   },
   {
     title: "React Instagram Clone",
@@ -33,21 +33,21 @@ export const projects = [
       "Firebase(Firestore & Auth)",
       "SASS",
     ],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/instagram.jpg",
   },
   {
     title: "Next.js Metaverse Page",
     source: "https://github.com/emirmorgan/nextjs-metaverse-page",
     live: "https://nextjs-metaverse.netlify.app",
     tags: ["Next.js", "Typescript", "Framer Motion", "Tailwindcss"],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/metaverse.jpg",
   },
   {
     title: "React Spotify Clone",
     source: "https://github.com/emirmorgan/react-spotify-clone",
     live: "https://imaginative-otter-9b6660.netlify.app",
     tags: ["React.js", "Redux", "Tailwindcss", "React Router"],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/spotify.jpg",
   },
   {
     title: "GraphQL Rick and Morty Page",
@@ -61,7 +61,7 @@ export const projects = [
       "Material UI",
       "Tailwindcss",
     ],
-    imgSrc: "https://source.unsplash.com/random",
+    imgSrc: "/images/rick.jpg",
   },
 ];
 

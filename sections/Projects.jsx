@@ -21,7 +21,7 @@ const Projects = () => {
           <Icons name="designProjects" />
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-2 break-words">
+      <div className="grid lg:grid-cols-2 gap-6 px-4 py-2 break-words">
         {projects.map((item, id) => (
           <div key={id} className={Styles.cardCartoon + " group"}>
             <Image
@@ -30,7 +30,7 @@ const Projects = () => {
               className="object-cover"
               fill
             />
-            <div className="absolute bg-primaryColor w-full h-full hidden group-hover:flex flex-col items-center justify-around p-3">
+            <div className="absolute bg-primaryColor w-full h-full opacity-0 group-hover:opacity-100 flex flex-col items-center justify-around p-3 transition-all ease-linear duration-200">
               <div className="font-bold text-2xl">{item.title}</div>
               <div className="flex justify-center flex-wrap gap-3 px-3">
                 {item.tags.map((tag, id) => (
