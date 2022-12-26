@@ -215,6 +215,31 @@ const Star = () => {
   );
 };
 
+const StarDark = () => {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 460 482"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="230.5" cy="241.5" r="137" stroke="white" stroke-width="3" />
+      <path
+        d="M79.3786 328.75L230.5 67L381.621 328.75H79.3786Z"
+        stroke="white"
+        stroke-width="3"
+      />
+      <path
+        d="M79.3592 154.239L381.641 154.239L230.5 416.022L79.3592 154.239Z"
+        fill="#F6F6F6"
+        stroke="white"
+        stroke-width="3"
+      />
+    </svg>
+  );
+};
+
 const ArrowDown = () => {
   return (
     <svg
@@ -266,6 +291,7 @@ export const Icons = ({ name }) => {
     github: GithubIcon,
     linkedin: LinkedinIcon,
     star: Star,
+    starDark: StarDark,
     arrowDown: ArrowDown,
   };
 
