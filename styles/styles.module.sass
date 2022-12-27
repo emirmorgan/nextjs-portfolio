@@ -32,6 +32,23 @@ $secondaryColor: #858585,
     border: 1px solid #000000
     box-shadow: -6px 5px 0px #000000
 
+.cursor
+    z-index: 9999
+    position: absolute
+    top: 0
+    left: 0
+
+    width: 36px
+    height: 36px
+    
+    box-shadow: 1px 1px 24px
+    backdrop-filter: invert(1)
+    border-radius: 50%
+
+    user-select: none
+    pointer-events: none
+    transform: translate(-50%,-50%)
+
 .easeIn
     animation: easeIn 350ms
 

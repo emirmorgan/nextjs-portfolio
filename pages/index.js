@@ -1,4 +1,5 @@
 //Components
+import Cursor from "../components/Cursor";
 import Design from "../components/Design";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -11,6 +12,7 @@ import Skills from "../sections/Skills";
 export default function Home() {
   return (
     <div className="flex w-full h-full overflow-hidden">
+      <Cursor />
       <Design />
       <div className="flex flex-col w-full">
         <Navbar />
