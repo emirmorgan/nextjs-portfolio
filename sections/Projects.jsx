@@ -1,4 +1,5 @@
 import Styles from "../styles/styles.module.sass";
+import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
 //Assets
@@ -8,8 +9,16 @@ import { Icons } from "../assets";
 import { projects } from "../constants";
 
 const Projects = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
-    <section id="projects" className="w-full mx-auto my-12 p-2">
+    <section
+      ref={ref}
+      id="projects"
+      className={"w-full mx-auto my-12 p-2 " + (inView ? Styles.easeIn : "")}
+    >
       <div className="flex justify-center items-center text-[52px] px-2 mb-6">
         <div className="mr-4">
           <Icons name="designProjects" />

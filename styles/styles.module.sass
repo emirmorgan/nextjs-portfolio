@@ -31,3 +31,25 @@ $secondaryColor: #858585,
     background: $primaryColor
     border: 1px solid #000000
     box-shadow: -6px 5px 0px #000000
+
+.easeIn
+    animation: easeIn 350ms
+
+.slideIn
+    animation: slideIn 450ms
+
+@keyframes easeIn
+    0%
+        opacity: 0
+        transform: translateY(50%)
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+@keyframes slideIn
+    0%
+        opacity: 0
+        transform: translateX(50%)
+    100%
+        opacity: 1
+        transform: translateX(0)

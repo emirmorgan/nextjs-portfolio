@@ -1,4 +1,5 @@
 import Styles from "../styles/styles.module.sass";
+import { useInView } from "react-intersection-observer";
 
 //Constants
 import { mySkills } from "../constants";
@@ -7,9 +8,19 @@ import { mySkills } from "../constants";
 import Sculpture from "../components/Sculpture";
 
 const Skills = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <section id="skills" className="w-full mx-auto my-32 p-2">
-      <div className="flex flex-col lg:flex-row justify-center items-center w-full px-10">
+      <div
+        ref={ref}
+        className={
+          "flex flex-col lg:flex-row justify-center items-center w-full px-10 " +
+          (inView ? Styles.slideIn : " ")
+        }
+      >
         <div className="flex-1 px-3">
           <div className="flex items-center text-[52px]">
             <span className={Styles.textCartoon + "  whitespace-nowrap"}>

@@ -1,4 +1,5 @@
 import Styles from "../styles/styles.module.sass";
+import { useInView } from "react-intersection-observer";
 
 //Assets
 import { Icons } from "../assets";
@@ -7,12 +8,22 @@ import { Icons } from "../assets";
 import { socials } from "../constants";
 
 const Hero = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <section
       id="hero"
       className="flex flex-col items-center w-full h-[calc(100vh-75px)] min-h-[600px] mx-auto"
     >
-      <div className="flex flex-col items-center justify-center h-full mb-10">
+      <div
+        ref={ref}
+        className={
+          "flex flex-col items-center justify-center h-full mb-10 " +
+          (inView ? Styles.easeIn : "")
+        }
+      >
         <div className="flex flex-col items-center text-center text-[74px] sm:text-[86px] md:text-[136px] lg:text-[168px] z-10 px-4">
           <h1 className={Styles.textCartoon}>FRONT-END DEVELOPER</h1>
           <h1 className={Styles.textCartoon}>EMİR MORGAN</h1>
