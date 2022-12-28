@@ -11,7 +11,7 @@ import Skills from "../sections/Skills";
 
 export default function Home() {
   return (
-    <div className="flex w-full h-full overflow-hidden">
+    <div className="flex relative w-full h-full overflow-hidden">
       <Cursor />
       <Design />
       <div className="flex flex-col w-full">
