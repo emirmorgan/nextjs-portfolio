@@ -258,6 +258,20 @@ const ArrowDown = () => {
   );
 };
 
+const ArrowUp = () => {
+  return (
+    <svg
+      width="22"
+      height="18"
+      viewBox="0 0 22 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M11 0L21.3923 18H0.607696L11 0Z" fill="black" />
+    </svg>
+  );
+};
+
 const ProjectsDesign = () => {
   return (
     <svg
@@ -293,6 +307,7 @@ export const Icons = ({ name }) => {
     star: Star,
     starDark: StarDark,
     arrowDown: ArrowDown,
+    arrowUp: ArrowUp,
   };
 
   const Component = icons[name];

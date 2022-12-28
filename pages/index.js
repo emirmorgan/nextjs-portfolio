@@ -3,6 +3,7 @@ import Cursor from "../components/Cursor";
 import Design from "../components/Design";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import ScrollButton from "../components/ScrollButton";
 
 //Sections
 import Hero from "../sections/Hero";
@@ -23,6 +24,7 @@ export default function Home() {
         </main>
         <Footer />
       </div>
+      <ScrollButton />
       <Design />
     </div>
   );
