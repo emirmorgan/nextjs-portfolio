@@ -14,7 +14,6 @@ const Cursor = () => {
       style={{
         left: location.x,
         top: location.y,
-        display: location.x === 0 ? "none" : "block",
       }}
     ></div>
   );
