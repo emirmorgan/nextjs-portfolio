@@ -7,6 +7,7 @@
 + SASS
 ## Design
 <img height="500" src="./assets/design.PNG"/>
+<img height="500" src="https://user-images.githubusercontent.com/53477261/210177138-43c3e24a-4ed4-417c-9912-495617f3188f.png"/>
 
 ------------
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
