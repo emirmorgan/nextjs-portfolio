@@ -37,7 +37,9 @@ const Projects = () => {
               src={item.imgSrc}
               alt={item.title}
               className="object-cover"
+              sizes="100vw"
               fill
+              priority
             />
             <div className="absolute bg-primaryColor w-full h-full opacity-0 group-hover:opacity-100 flex flex-col items-center justify-around p-3 transition-all ease-linear duration-200">
               <div className="font-bold text-2xl">{item.title}</div>

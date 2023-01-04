@@ -69,9 +69,14 @@ export const socials = [
   {
     icon: "github",
     link: "https://github.com/emirmorgan",
+    label: "Github",
   },
-  { icon: "linkedin", link: "https://linkedin.com/in/emirmorgan" },
-  { icon: "twitter", link: "https://twitter.com/emirmrg" },
+  {
+    icon: "linkedin",
+    link: "https://linkedin.com/in/emirmorgan",
+    label: "LinkedIn",
+  },
+  { icon: "twitter", link: "https://twitter.com/emirmrg", label: "Twitter" },
 ];
 
 export const mySkills = [

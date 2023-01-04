@@ -39,6 +39,7 @@ const Hero = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-95 transition-all ease-linear"
+                  aria-label={item.label}
                 >
                   <Icons name={item.icon} />
                 </a>
