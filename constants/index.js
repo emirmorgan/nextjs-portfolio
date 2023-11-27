@@ -1,10 +1,26 @@
 export const projects = [
   {
+    title: "Full-stack eCommerce | Next.js & .NET",
+    source: "https://github.com/emirmorgan/next-commerce",
+    live: "https://github.com/emirmorgan/next-commerce",
+    tags: [
+      "Next.js 17",
+      ".NET 8",
+      "Entity Framework",
+      "Typescript",
+      "TailwindCSS",
+      "Formik / Yup",
+      "Context API",
+      "Chart.js",
+    ],
+    imgSrc: "/images/commerce.webp",
+  },
+  {
     title: "Next.js Portfolio [This Website]",
     source: "https://github.com/emirmorgan/nextjs-portfolio",
     live: "https://emirmorgan.netlify.app",
     tags: ["Next.js", "react-three-fiber", "Tailwindcss", "SASS"],
-    imgSrc: "/images/portfolio.jpg",
+    imgSrc: "/images/portfolio.webp",
   },
   {
     title: "Next.js Twitter Clone",
@@ -18,7 +34,7 @@ export const projects = [
       "Tailwindcss",
       "Firebase(Firestore & Auth)",
     ],
-    imgSrc: "/images/twitter.jpg",
+    imgSrc: "/images/twitter.webp",
   },
   {
     title: "React Instagram Clone",
@@ -33,21 +49,14 @@ export const projects = [
       "Firebase(Firestore & Auth)",
       "SASS",
     ],
-    imgSrc: "/images/instagram.jpg",
-  },
-  {
-    title: "Next.js Metaverse Page",
-    source: "https://github.com/emirmorgan/nextjs-metaverse-page",
-    live: "https://nextjs-metaverse.netlify.app",
-    tags: ["Next.js", "Typescript", "Framer Motion", "Tailwindcss"],
-    imgSrc: "/images/metaverse.jpg",
+    imgSrc: "/images/instagram.webp",
   },
   {
     title: "React Spotify Clone",
     source: "https://github.com/emirmorgan/react-spotify-clone",
     live: "https://imaginative-otter-9b6660.netlify.app",
     tags: ["React.js", "Redux", "Tailwindcss", "React Router"],
-    imgSrc: "/images/spotify.jpg",
+    imgSrc: "/images/spotify.webp",
   },
   {
     title: "GraphQL Rick and Morty Page",
@@ -61,7 +70,7 @@ export const projects = [
       "Material UI",
       "Tailwindcss",
     ],
-    imgSrc: "/images/rick.jpg",
+    imgSrc: "/images/rick.webp",
   },
 ];
 
@@ -76,20 +85,18 @@ export const socials = [
     link: "https://linkedin.com/in/emirmorgan",
     label: "LinkedIn",
   },
-  { icon: "twitter", link: "https://twitter.com/emirmrg", label: "Twitter" },
+  { icon: "x", link: "https://twitter.com/emirmrg", label: "X" },
 ];
 
 export const mySkills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React.js",
-  "Next.js",
-  "Redux & Context API",
-  "Tailwindcss",
-  "Bootstrap",
+  "React.js, Next.js",
+  "ASP.NET",
+  "JavaScript, TypeScript",
+  "HTML, CSS",
+  "Redux, Context API",
+  "TailwindCSS, Bootstrap",
   "Material UI",
   "SASS",
   "PHP",
+  "Jest, Vitest, Cypress",
 ];

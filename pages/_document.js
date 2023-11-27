@@ -11,10 +11,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
           rel="stylesheet"
         />
-        <meta name="description" content="Emir Morgan | Frontend Developer" />
+        <meta name="description" content="Emir Morgan | Full-Stack Developer" />
         <meta
           name="keywords"
-          content="emir morgan, emir morgan frontend developer, emir, morgan, emirmorgan, emirmrg"
+          content="emir morgan, emir morgan fullstack developer, emir, morgan, emirmorgan, emirmrg"
         />
         <meta name="author" content="Emir Morgan"></meta>
       </Head>

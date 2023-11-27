@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Icons } from "../assets";
+
 import Styles from "../styles/styles.module.sass";
+
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 

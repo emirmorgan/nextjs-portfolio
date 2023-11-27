@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Emir Morgan - Frontend Developer</title>
+        <title>Emir Morgan - Full-Stack Developer</title>
       </Head>
       {isLoading ? <Loading /> : <Component {...pageProps} />}
     </>
