@@ -4,7 +4,7 @@ export const projects = [
     source: "https://github.com/emirmorgan/next-commerce",
     live: "https://github.com/emirmorgan/next-commerce",
     tags: [
-      "Next.js 17",
+      "Next.js 14",
       ".NET 8",
       "Entity Framework",
       "Typescript",
