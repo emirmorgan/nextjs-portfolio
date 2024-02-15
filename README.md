@@ -1,8 +1,6 @@
 ### Live www.emir.run
 ## Technologies
 + Next.js
-+ react-three-fiber & three.js
-+ react-intersection-observer
 + TailwindCSS
 + SASS
 ## Design
