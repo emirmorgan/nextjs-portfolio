@@ -16,6 +16,25 @@ export const projects = [
     imgSrc: "/images/commerce.webp",
   },
   {
+    title: "Angular SaaS Starter",
+    source: "https://github.com/emirmorgan/angular-saas-starter",
+    live: "https://angular-saas.netlify.app",
+    tags: ["Angular", "Typescript", "Tailwindcss", "SASS"],
+    imgSrc: "/images/angular.webp",
+  },
+  {
+    title: "React Native Shop App",
+    source: "https://github.com/emirmorgan/react-native-shop-app",
+    live: "https://github.com/emirmorgan/react-native-shop-app",
+    tags: [
+      "React Native",
+      "React Native Navigation",
+      "Typescript",
+      "Jest Native",
+    ],
+    imgSrc: "/images/react-native.webp",
+  },
+  {
     title: "Next.js Portfolio [This Website]",
     source: "https://github.com/emirmorgan/nextjs-portfolio",
     live: "https://emirmorgan.netlify.app",

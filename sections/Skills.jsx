@@ -2,7 +2,7 @@ import Styles from "../styles/styles.module.sass";
 
 import { mySkills } from "../constants";
 
-import Sculpture from "../components/Sculpture";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -24,8 +24,13 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-1 items-center justify-center">
-          <div style={{ width: "320px", height: "450px" }}>
-            <Sculpture />
+          <div className="relative w-[280px] h-[280px] seelect-none pointer-events-none">
+            <Image
+              src="/images/statue.webp"
+              alt="Statue"
+              className="object-contain"
+              fill
+            />
           </div>
         </div>
       </div>
